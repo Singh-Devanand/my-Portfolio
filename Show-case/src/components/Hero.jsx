@@ -57,15 +57,20 @@ const Hero = () => {
             />
           </motion.div>
 
-          <motion.p
-            initial={{ opacity: 0, x: -50 }}
-            animate={{ opacity: 1, x: 0 }}
-            transition={{ duration: 0.8, delay: 0.8 }}
-            className="text-lg text-gray-400 mb-8 leading-relaxed"
-          >
-            I create stunning web experiences with modern technologies and
-            innovative design.
-          </motion.p>
+         ```jsx
+<motion.p
+  initial={{ opacity: 0, x: -50 }}
+  animate={{ opacity: 1, x: 0 }}
+  transition={{ duration: 0.8, delay: 0.8 }}
+  className="text-lg text-gray-400 mb-8 leading-relaxed"
+>
+  I build full-stack web applications using React.js, Node.js,
+  Express.js, and MongoDB. With a strong foundation in Java
+  and Data Structures & Algorithms, I enjoy solving problems
+  and developing practical solutions, from AI-powered interview
+  preparation tools to interactive web applications.
+</motion.p>
+```
 
           <motion.div
             initial={{ opacity: 0, y: 30 }}

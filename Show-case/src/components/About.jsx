@@ -71,18 +71,22 @@ const About = () => {
                 My <span className="text-purple">Journey</span>
               </h3>
 
-              <p className="text-gray-300 mb-6 leading-relaxed">
-                I'm a passionate full-stack developer with over 5 months of
-                experience creating digital solutions through personal projects.
-                My journey started with basic HTML/CSS websites and has evolved
-                into building complex web applications with modern frameworks.
-              </p>
+          <p className="text-gray-300 mb-6 leading-relaxed">
+  I'm an Information Technology undergraduate at KIET Group of
+  Institutions with a strong interest in full-stack development
+  and problem-solving. I build web applications using React.js,
+  Node.js, Express.js, and MongoDB. My projects include an
+  AI-powered interview preparation platform, a full-stack car
+  rental website, and a blog platform with user authentication.
+</p>
 
-              <p className="text-gray-300 mb-8 leading-relaxed">
-                When I'm not coding, you can find me exploring new technologies,
-                contributing to open-source projects, and improving my
-                development skills.
-              </p>
+<p className="text-gray-300 mb-8 leading-relaxed">
+  Alongside development, I practice Data Structures and
+  Algorithms in Java and have solved 350+ coding problems
+  across LeetCode and GeeksforGeeks. I'm continuously improving
+  my technical skills and looking for opportunities to contribute
+  to real-world software development projects.
+</p>
 
               {/* Cards */}
               <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
