@@ -84,18 +84,15 @@ const Navbar = () => {
             className="md:hidden flex flex-col bg-dark-300/95 backdrop-blur-md rounded-2xl p-6 text-center space-y-4 mt-4 border border-dark-400/50"
           >
             {navLinks.map((link, index) => (
-              <motion.a
-                key={link.name}
-                initial={{ opacity: 0, x: -20 }}
-                animate={{ opacity: 1, x: 0 }}
-                transition={{ duration: 0.3, delay: index * 0.05 }}
-                onClick={() => setShowMenu(false)}
-                href={link.href}
-                className="text-white/80 py-2 transition duration-300 hover:text-purple text-lg"
-              >
-                {link.name}
-              </motion.a>
-            ))}
+               <a
+    key={link.name}
+    href={link.href}
+    onClick={() => setShowMenu(false)}
+    className="text-white/80 py-2 transition duration-300 hover:text-purple text-lg"
+  >
+    {link.name}
+  </a>
+))}
           </motion.div>
         )}
       </AnimatePresence>
