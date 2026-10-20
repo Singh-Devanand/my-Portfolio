@@ -56,11 +56,16 @@ const Contact = () => {
       setStatus('sent');
       setFormData({ name: '', email: '', message: '' });
       setTimeout(() => setStatus(''), 4000);
-    } catch (error) {
-      console.error('EmailJS Error:', error);
-      setStatus('error');
-      setTimeout(() => setStatus(''), 4000);
-    }
+    } 
+catch (error) {
+  console.error("EmailJS Error:", error);
+  console.log("Status:", error.status);
+  console.log("Details:", error.text);
+
+  setStatus("error");
+  setTimeout(() => setStatus(""), 4000);
+}
+
   };
 
   const contactInfo = [
